@@ -8,13 +8,6 @@ pymongo>=4.6.0
 # Security & password hashing
 werkzeug>=3.0.0
 
-# Email utilities
-smtplib  # standard library (no install needed, just listed for clarity)
-email  # standard library (no install needed)
-
-# Regex (standard lib)
-re  # standard library (no install needed)
-
 # Vector DB
 chromadb>=0.5.3
 
@@ -31,7 +24,7 @@ huggingface-hub>=0.22.0
 # LLM / OpenAI client
 openai>=1.40.0
 
-# Optional - if using OpenRouter (some builds rely on requests for APIs)
+# Network / API utilities
 requests>=2.32.0
 
 # Misc
