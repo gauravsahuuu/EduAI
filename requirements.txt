@@ -1,0 +1,38 @@
+# Core app
+streamlit>=1.36.0
+pandas>=2.2.0
+
+# Database
+pymongo>=4.6.0
+
+# Security & password hashing
+werkzeug>=3.0.0
+
+# Email utilities
+smtplib  # standard library (no install needed, just listed for clarity)
+email  # standard library (no install needed)
+
+# Regex (standard lib)
+re  # standard library (no install needed)
+
+# Vector DB
+chromadb>=0.5.3
+
+# LangChain ecosystem
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-chroma>=0.1.0
+langchain-openai>=0.1.0
+
+# Embeddings
+sentence-transformers>=2.2.2
+huggingface-hub>=0.22.0
+
+# LLM / OpenAI client
+openai>=1.40.0
+
+# Optional - if using OpenRouter (some builds rely on requests for APIs)
+requests>=2.32.0
+
+# Misc
+tqdm>=4.66.0
